@@ -3,7 +3,7 @@ const palindromes = function (str) {
     let filteredStr = str.toLowerCase().replace(filter, "");
     let revStr = filteredStr.split("").reverse().join("");
 
-    return revStr === str ? true : false;
+    return revStr === filteredStr ? true : false;
     console.log(revStr);
 
 };
